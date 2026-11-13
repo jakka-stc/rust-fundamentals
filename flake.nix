@@ -10,7 +10,7 @@
           nixd
           nixfmt
         ];
-        env.GIT_SSH_COMMAND = "ssh -v -o 'IdentitiesOnly=yes' -i ~/.ssh/id_stc";
+        env.GIT_SSH_COMMAND = "ssh -o 'IdentitiesOnly=yes' -i ~/.ssh/id_stc";
       };
     };
 }

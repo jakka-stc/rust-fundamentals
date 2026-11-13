@@ -9,5 +9,5 @@ fn main() {
 
     // TODO: print the two lines described in the exercise.
     // Use a {} placeholder for name; do not type any name yourself.
-    let _ = name;
+    println!("Hello, {name}!\nWelcome to Rust.");
 }
